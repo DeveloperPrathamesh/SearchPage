@@ -1,0 +1,279 @@
+a{
+    text-decoration: none;
+}
+body{
+    margin:auto;
+    font-family: sans-serif;
+    
+}
+
+header{
+    width:100%;
+    height:57px;
+    background-color: #172337;
+    color: white;
+}
+
+
+.hname span{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-weight: lighter;
+    font-size: 29px;
+}
+
+.hname span a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.social{
+    float: right;
+}
+
+.social a img{
+    height:50px;
+}
+
+.social a img:hover{
+    transform: scale(1.1);
+}
+
+#content{
+    width:100%;
+    background:rgb(188, 188, 222);
+    display: flex;
+}
+
+.name{
+    text-align: center;
+    font-size: 23px;
+    padding: 10%;
+    border-bottom: 1px solid white;
+}
+
+.items-container{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+}
+
+.item{
+    line-height: 2;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.filter{
+    width: 20%;
+    height: 570px; 
+    border: 2px solid black;
+    margin-top: 3%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+.clear{
+    text-align: center;
+    color: #3b2632;
+    margin-top: 5%;
+}
+
+.hotel{
+    width: 65%;
+    height: 600px;
+    margin-top: 3%;
+}
+
+.hotel1{
+    border: 1px solid black;
+    height: 250px;
+    width:100%;
+    display:flex;
+    box-shadow: 0 0 11px gray;
+    padding-top: 2%;
+}
+
+.hotelimg{
+    width:46%;
+    margin-left: 3%;
+} 
+
+.hotelimg img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10%;
+
+}
+
+.hotelimg img:hover{
+    transform: scale(1.1);
+}
+.info{
+    width: 50%;
+    margin-left: 4%;
+}
+
+.cafename{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 23px;
+    color:blue;
+    margin-bottom: 5%;
+}
+
+.address{
+    font-size: 13px;
+    color:#3b2632;
+}
+
+.rating{
+    font-size: 13px;
+    color:#3b2632;
+}
+
+.price{
+    font-size: 13px;
+    color:#3b2632;
+}
+
+.category{
+    margin-top: 1%;
+    color: white;
+}
+
+
+
+.category1{
+    display: inline-block;
+    padding:5px;
+    margin-right: 4%;
+    font-size: 15px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.category2{
+    display: inline-block;
+    padding:5px;
+    font-size: 15px;
+    background-color: red;
+    border-radius: 5px;
+}
+ 
+.category1:hover{
+    transform: scale(1.1);
+}
+
+.category2:hover{
+    transform: scale(1.1);
+}
+
+.type{
+    margin-top: 7%;
+    color: white;
+}
+.type1{
+    display: inline-block;
+    margin-right: 4%;
+    padding:5px;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 5px;
+}
+.type2{
+    display: inline-block;
+    padding:5px;
+    font-size: 15px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+.type1:hover{
+    transform: scale(1.1);
+}
+
+.type2:hover{
+    transform: scale(1.1);
+}
+
+.hotel2{
+    border: 1px solid black;
+    height: 250px;
+    width:100%;
+    display:flex;
+    margin-top: 5%;
+    padding-top: 2%;
+    box-shadow: 0 0 11px gray;
+}
+
+/* footer{
+    width:100%;
+    height:50px;
+    background-color: #590202;
+} */
+
+footer{
+    width:100%;
+    text-align: center;
+    background-color: #172337;
+    color:#ffffff ;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.foot ul{
+    list-style-type: none;
+    
+}
+
+.foot ul a{
+    color:#ffffff;
+}
+
+.foot{
+    display: inline-block;
+    border-right: 1px solid white;
+    width:32%;
+}
+
+.noborder{
+    border:none;
+}
+
+.footext{
+    margin-bottom: 2%;
+}
+
+.footsocial{
+    text-align: center;
+    margin-top: 3%;
+    
+}
+
+.footsocial a img{
+    height:50px;
+    margin-left: 3%;
+}
+
+.footsocial a img:hover{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 700px){
+
+     /* .category{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .type{
+        margin-top: 0;
+    } 
+ 
+    .dishes{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
